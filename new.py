@@ -201,7 +201,6 @@ class ShellcodeStore:
 # ===========================================================================
 class TargetLocator:
     CANDIDATES = [
-        "/usr/bin/sudo", "/usr/bin/umount", "/usr/bin/mount",
         "/usr/bin/pkexec",
     ]
     SCAN_ROOTS = ["/usr", "/bin", "/sbin", "/opt", "/snap", "/lib"]
